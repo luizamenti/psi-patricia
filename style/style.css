@@ -30,6 +30,10 @@ body {
     border-top: rgb(38, 44, 8) 2px solid;
 }
 
+.whatsapp-button {
+    width: 25px;
+}
+
 /* Cover */
 
 .hero {
@@ -90,6 +94,29 @@ p {
     margin-left: 0;
 }
 
+/* Article */
+
+.line {
+    width: 100%;
+}
+
+.article-line {
+    min-width: 200px;
+}
+
+.article-text {
+    text-indent: 50px;
+}
+
+.article-image {
+    width: 15vw;
+    min-width: 200px;
+}
+
+.article-figcaption {
+    font-size: small;
+}
+
 /* Services section */
 
 .services-line {
@@ -131,31 +158,6 @@ p {
 .center {
     margin-left: 50%;
     transform: translateX(-50%);
-}
-
-/* Article */
-
-.article-title {
-    min-width: 250px;
-}
-
-.line {
-    width: 100%;
-}
-
-.article-line {
-    max-width: 500px;
-    min-width: 200px;
-}
-
-.article-text {
-    text-indent: 50px;
-}
-
-.article-image {
-    float: right;
-    width: 70vw;
-    max-width: 400px;
 }
 
 /* Offices */
